@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0 auto;
     font-family: Consolas;
@@ -203,4 +204,211 @@ span {
     .blocoDois {
         margin-top: 0 auto;
     }
+=======
+body {
+    margin: 0 auto;
+    font-family: Consolas;
+}
+
+h2 {
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    margin: 55px 0 10px 0;
+}
+
+.objetivo {
+    color:  #132073;
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.blocoGeral {
+    padding-top: 25px;
+    color: #f7f4e9;
+    height: 300px;
+
+    background-image: url(imagens/frame.jpg);
+        background-size: cover;
+        background-position: center center;
+}
+
+.circulo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: #de4652 solid;
+    position: relative;
+    left:50%;
+	top:40px;
+	margin-left:-70px;
+	margin-top:-40px;
+  }
+
+.circulo img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+.geral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.end, .telEmail, .plus {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.tel, .email {
+    display: flex;
+    align-items: center;
+}
+
+.place, .phone, .email, .plusImg {
+    margin-right: 8px;
+}
+
+.email, .phoneImg {
+    margin-left: 30px;
+}
+
+.container {
+    height: 100%; 
+    background-color: #f0f0f0;
+}
+
+.maisInfo {
+    height: 100%;
+    display: flex;
+}
+
+.blocoUm, .blocoDois {
+    margin: 40px 80px 0 80px;
+    width: 50%;
+}
+
+.linha {
+    background-color: #132073;
+    margin-top: 40px;
+    height: 970px;
+    width: 4px;
+}
+
+.infos {
+  color: #de4652;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+li {
+    color: #132073;
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: bold;
+    word-wrap: break-word;
+    margin: 10px 0 5px 0;
+}
+
+span {
+    color:  #0c156e;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+@media (max-width: 700px){
+    body {
+        width: 100%;
+    }
+
+    .blocoGeral{
+        height: 27rem;
+    }
+    
+    .geral {
+        display: flex;
+        flex-direction: column;
+        width:22rem;
+        padding: 1rem;
+        margin: 0.4rem 0 0 4rem;
+    }
+    
+    .phone, .email {
+        margin-top: 0.4rem;
+    }
+    
+    .telEmail {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .end, .tel, .email, .plus {
+        margin-top: 0.6rem;
+    }
+
+    .email {
+        margin-left: 0;
+    }
+
+    .container {
+        height: 170rem;
+    }
+
+    .objetivo {
+        padding: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .maisInfo {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        background-color: #f0f0f0;
+    }
+
+    .blocoUm, .blocoDois {
+        margin: 0.2rem 0 0 2.1rem;
+    }
+
+    .infos {
+        width: 18rem;
+        font-size: 1rem;
+        margin: 0 0 0.5rem 0;
+    }
+
+    ul {
+        margin-bottom: 2rem;
+    }
+
+    li {
+        margin-bottom: 0.6rem;
+        width: 15rem;
+        display: flex;
+        flex-direction: column;
+        width: 21rem;
+        margin: 0 1rem 1rem 1rem;
+    }
+
+    span {
+        margin: 0.5rem 0 1rem 0;
+    }
+
+    .linha {
+        height: 0;
+    }
+
+    .blocoDois {
+        margin-top: 0 auto;
+    }
+>>>>>>> 7700d258a9d1637642c5be653cfc229193722bdc
 }
