@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     margin: 0 auto;
     font-family: Consolas;
@@ -204,7 +203,7 @@ span {
     .blocoDois {
         margin-top: 0 auto;
     }
-=======
+
 body {
     margin: 0 auto;
     font-family: Consolas;
@@ -325,90 +324,5 @@ span {
     font-style: italic;
     font-weight: lighter;
 }
-
-@media (max-width: 700px){
-    body {
-        width: 100%;
-    }
-
-    .blocoGeral{
-        height: 27rem;
-    }
-    
-    .geral {
-        display: flex;
-        flex-direction: column;
-        width:22rem;
-        padding: 1rem;
-        margin: 0.4rem 0 0 4rem;
-    }
-    
-    .phone, .email {
-        margin-top: 0.4rem;
-    }
-    
-    .telEmail {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .end, .tel, .email, .plus {
-        margin-top: 0.6rem;
-    }
-
-    .email {
-        margin-left: 0;
-    }
-
-    .container {
-        height: 170rem;
-    }
-
-    .objetivo {
-        padding: 1rem;
-        font-size: 1.4rem;
-    }
-
-    .maisInfo {
-        display: flex;
-        flex-direction: column;
-        width:100%;
-        background-color: #f0f0f0;
-    }
-
-    .blocoUm, .blocoDois {
-        margin: 0.2rem 0 0 2.1rem;
-    }
-
-    .infos {
-        width: 18rem;
-        font-size: 1rem;
-        margin: 0 0 0.5rem 0;
-    }
-
-    ul {
-        margin-bottom: 2rem;
-    }
-
-    li {
-        margin-bottom: 0.6rem;
-        width: 15rem;
-        display: flex;
-        flex-direction: column;
-        width: 21rem;
-        margin: 0 1rem 1rem 1rem;
-    }
-
-    span {
-        margin: 0.5rem 0 1rem 0;
-    }
-
-    .linha {
-        height: 0;
-    }
-
-    .blocoDois {
-        margin-top: 0 auto;
-    }
->>>>>>> 7700d258a9d1637642c5be653cfc229193722bdc
 }
+
